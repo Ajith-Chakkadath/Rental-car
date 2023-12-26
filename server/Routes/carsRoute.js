@@ -1,7 +1,9 @@
 
 const express = require('express')
-const router = express.Router()
 
+const router = express.Router()
+// const cors = require('cors')
+// app.use(cors())
 const Car = require("../Models/carmodel.js")
 
 router.get("/getcallcars" , async(req,res) =>{
